@@ -1,0 +1,69 @@
+#banner {
+background: #9c9;
+padding-top: 10px;
+padding-bottom: 50px;
+border-bottom: 20px solid;
+font: small-caps 40px/40px "lucida handwriting", serif;
+color: #400;
+text-align: center;
+}
+#banner img {
+float: left;
+}
+#columns {
+background: #600;
+}
+#main {
+margin-left: 15em;
+
+padding-left: 10em;
+background: ivory;
+}
+#side {
+float: left;
+padding-top: 0em;
+padding-left: 0em;
+padding-bottom:10em;
+width: 15em;
+background: #200;
+}
+#side a {
+color:#FF8000;
+font-size: medium;
+}
+#store .cart_title {
+font: 120% bold;
+}
+#store .item_price, #store .total_line {
+text-align: right;
+}
+#store .total_line .total_cell {
+font-weight: bold;
+border-top: 1px solid #200;
+}
+#cart, #cart table {
+font-weight: bold;
+    font-size: medium;
+color:
+white;
+}
+#cart table {
+border-top:
+1px dotted #120;
+border-bottom: 1px dotted #400;
+margin-bottom: 1px;
+}
+.depot_form fieldset {
+background: #efe;
+}
+.depot_form legend {
+color: #dfd;
+background: #141;
+font-family: sans-serif;
+padding: 0.2em 1em;
+}
+
+.locale {
+float: right;
+margin: -0.25em 0.1em;
+}

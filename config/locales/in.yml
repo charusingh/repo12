@@ -1,0 +1,72 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+in:
+
+ layouts:
+   application:
+     title:      "सुंदर वन मै आपका स्वागत है"
+     home:        "घर"
+     questions:  "सवाल जवाब"
+     news:        "समाचार"
+     contact:      "दूरभाष"
+
+ store:
+   index:
+     title_html: "आपका चालित सुंदर वन"
+     add_html: "ट्रॉली मे डालो "
+
+ carts:
+  cart:
+    title: "आपकी ट्रॉली"
+    empty: "ट्रॉली खाली करे "
+    checkout: "आगे जाइए"
+
+ number:
+  currency:
+    format:
+      unit: "र"
+ orders:
+  new:
+   legend: "अपनी जानकारी दीजिए"
+  form:
+   name: "नाम"
+   address_html: "पता"
+   email: "ईमेल"
+   pay_type: "राशि देने का तरीका"
+   pay_prompt_html: "Seleccione un m&eacute;todo de pago"
+   submit: "Realizar Pedido"
+
+ activerecord:
+  errors:
+   messages:
+     inclusion: "no est&aacute; incluido en la lista"
+
+     blank: "no puede quedar en blanco"
+
+ errors:
+  template:
+   body: "Hay problemas con los siguientes campos:"
+
+   header:
+    one: "1 error ha impedido que este %{model} se guarde"
+
+    other: "%{count} errores han impedido que este %{model} se guarde"
+ activerecord:
+  models:
+   order: "pedido"
+
+  attributes:
+   order:
+    address: "Direcci&oacute;n"
+
+    name: "Nombre"
+
+    email: "E-mail"
+
+    pay_type: "Forma de pago"
+ thanks: "thankuo"
+
+
+
+

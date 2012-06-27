@@ -1,0 +1,34 @@
+  <h1>PRODUCT LISTING</h1>
+
+<table>
+  <tr>
+    <th>TITLE</th>
+    <th>DESCRIPTION</th>
+    <th>IMAGE</th>
+    <th>PRICE</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <% @pro.each do |product| %>
+ 
+  <tr>
+    <td><%= product.title %></td>
+    <td><%= product.discription %></td>
+    <td><%= image_tag( product.image_url, :class =>'list_image') %></td>
+    <td><%= product.price %></td>
+  
+    <td><%= link_to 'edit',edit_product_path(product) %></td>
+   
+    <tr>
+    
+
+    
+  </tr>
+  </tr>
+  <%end%>
+
+</table>
+<br/>
+
+
+

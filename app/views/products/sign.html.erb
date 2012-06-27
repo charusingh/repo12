@@ -1,0 +1,24 @@
+<h1>welcome,signup is easy</h1>
+
+<%= form_for @pro,:url =>{:action => "sign"} do |f|%>
+
+
+
+    <%= f.label :name %> <br />
+    <%= f.text_field :name %>
+    <div>
+    <%= f.label :surname %><br />
+    <%= f.text_field :surnmae %>
+    </div>
+
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+    <div>
+    <%= f.label :contact %><br />
+    <%= f.text_field :contact %>
+    </div>
+   <div class="actions">
+    <%= f.submit:submit %>
+  </div>
+  
+<%end%>

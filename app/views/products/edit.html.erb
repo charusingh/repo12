@@ -1,0 +1,29 @@
+<h1>charu's editor!</h1>
+
+
+<h1> NEW PRODUCT</h1>
+<%= form_for @pro do |f|%>
+
+
+
+<div class="field" >
+<%= f.label :title %><br />
+<%= f.text_field :title %>
+</div>
+<div class="field" >
+<%= f.label :discription %><br />
+<%= f.text_area :discription, :rows => 6 %>
+</div>
+<div class="field" >
+<%= f.label :image_url %><br />
+<%= f.text_field :image_url %>
+</div>
+<div class="field" >
+<%= f.label :price %><br />
+<%= f.text_field :price %>
+</div>
+<div class="actions" >
+<%= f.submit:createproduct %>
+</div>
+<% end %>
+
